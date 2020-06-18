@@ -177,14 +177,16 @@ h6 {
 
 /* About us begins */
 .about-container {
-  display: flex;
-  
-  
+  display: flex; 
 }
 .flex-item-one img{
   margin: 4em;
   width: 30em;
   border-radius: 0 5em 0 10em;
+  transition: width 2s;
+}
+.flex-item-one img:hover {
+  width: 32em;
 }
 
 .flex-item-two {
@@ -203,9 +205,11 @@ h6 {
 .flex-item-two p {
   margin: 5px;
   padding: 5px;
+  text-align: justify;
   line-height: 2;
   position: relative;
   top: 7em;
+  font-style: italic;
 }
 
 /*header begins*/
@@ -469,19 +473,19 @@ button:disabled {
     position: relative; 
     height: 1.8em;
     width: 1.8em;
-    background-color: green;
+    background-color: #000;
   }
   .twitter {
     position: relative;
     left: 1em;
-    background-color: green;
+    background-color: #000;
     height: 1.8em;
     width: 1.8em;  
   }
   .instagram {
     position: relative;
     left: 2em;
-    background-color: green;
+    background-color: #000;
     height: 1.8em;
     width: 1.8em;
     

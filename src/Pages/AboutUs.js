@@ -11,7 +11,8 @@ const AboutUs = () => {
                </div>
                <div className="flex-item-two">
                    <h1>Health Garde Product</h1>
-                   <p>I can’t keep calm let’s go NATURAL, LETS BOOST OUR IMMUNITY, DETOXIFICATION IS A NECESSITY LETS PROTECT OURSELVES AGAINST BACTERIA,VIRUSES , FUNGI  etc !FOOD SUPPLEMENTS ANSWER LOADS OF YOUR QUESTIONS visit my online shop, make your choices enjoy sumptuous discounts and get a gift for visiting my online shop 08038133369.</p>               
+                   <p>I can’t keep calm let’s go NATURAL, LETS BOOST OUR IMMUNITY, DETOXIFICATION IS A NECESSITY LETS PROTECT OURSELVES AGAINST BACTERIA,VIRUSES , FUNGI  etc. FOOD SUPPLEMENTS ANSWER LOADS OF YOUR QUESTIONS visit my online shop, make your choices enjoy sumptuous discounts and get a gift for visiting my online shop 08038133369.</p> 
+                   <p></p>              
                 </div>
            </div> 
             
