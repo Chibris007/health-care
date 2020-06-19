@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import HGI_corona_poster from '../Images/HGI_corona_poster.jpg';
 import family from '../Images/family.jpg';
@@ -30,7 +31,11 @@ import health_garde from '../Images/health_garde.jpg';
                   
                </div>
            </div>
-           
+           <div>
+                <Link to="/error">                        
+                                           
+                </Link>    
+           </div>    
         </div>
     )
 }

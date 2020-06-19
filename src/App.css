@@ -307,6 +307,13 @@ button:disabled {
   font-weight: bold;
 }
 
+/* Password Begins */
+.password-container {
+  border: 1px solid grey;
+  width: 30%;
+  margin: 3em auto;
+}
+
 /*section begins*/
 
 .section {
@@ -436,7 +443,18 @@ button:disabled {
   color: white;
 }
 
-
+/* Error page */
+.error-page h1{
+  color: lightblue;
+  font-size: 50px;
+  text-align: center;
+}
+.error-page img {
+  margin: 5em auto;
+  display: flex;
+  width: 25%;
+  border-radius: 10px;
+}
 /*footer*/
   .flex-container {
     display: flex;

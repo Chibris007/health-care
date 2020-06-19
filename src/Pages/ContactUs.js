@@ -149,7 +149,7 @@ class ContactUs extends React.Component {
                       <button className='button' type='submit' disabled={!this.state.formValid}>Log In</button>
                   </div>
                   <div>
-                  <Link to="/consult" className='form-link'>                        
+                    <Link to="/consult" className='form-link'>                        
                         Not a Customer?Login as a Consultant                       
                     </Link> 
                   </div>
